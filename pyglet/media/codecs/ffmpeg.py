@@ -1120,7 +1120,7 @@ else:
 class FFmpegDecoder(MediaDecoder):
 
     def get_file_extensions(self):
-        return '.mp3', '.ogg'
+        return '.mp3', '.ogg', '.mp4'
 
     def decode(self, filename, file, streaming=True):
         if streaming:
